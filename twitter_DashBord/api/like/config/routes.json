@@ -1,0 +1,36 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/likes/given",
+      "handler": "like.find",
+      "config": {
+        "policies": ["isTargetUserLoggedIn"]
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/likes/recevied",
+      "handler": "like.find",
+      "config": {
+        "policies": ["tweetUserIsMe"]
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/likes",
+      "handler": "like.create",
+      "config": {
+        "policies": []
+      }
+    },
+   {
+      "method": "DELETE",
+      "path": "/likes/:tweetId",
+      "handler": "like.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

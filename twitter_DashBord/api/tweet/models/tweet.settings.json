@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tweets",
+  "info": {
+    "name": "tweet",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "users_permissions_user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "tweets"
+    },
+    "likes_events": {
+      "collection": "like",
+      "via": "tweet"
+    },
+    "liked": {
+      "type": "string",
+      "default": "0"
+    },
+    "likes": {
+      "type": "integer",
+      "default": 0,
+      "required": false
+    },
+    "comments": {
+      "via": "tweet",
+      "collection": "comment"
+    }
+  }
+}
