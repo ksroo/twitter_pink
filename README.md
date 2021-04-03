@@ -1,5 +1,6 @@
 # twitter_pink
-<img src="https://user-images.githubusercontent.com/68150126/113481063-bf933400-9497-11eb-833f-defbf479c07a.png" width="200" height="400">
+### Splash Screen 
+<img src="https://user-images.githubusercontent.com/68150126/113481803-fec38400-949b-11eb-837f-e2f1b5f59d18.png" width="200" height="400"> 
 
 
 A new Flutter application.
