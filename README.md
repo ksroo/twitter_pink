@@ -1,5 +1,5 @@
 # twitter_pink
-![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)
+<img src="https://user-images.githubusercontent.com/68150126/113481063-bf933400-9497-11eb-833f-defbf479c07a.png" width="200" height="400">
 
 
 A new Flutter application.
