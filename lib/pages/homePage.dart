@@ -48,10 +48,7 @@ class _HomePageState extends State<HomePage> {
               color: mainDarkPinkColor,
               size: 30,
             ),
-            // child: Icon(
-            //   FontAwesomeIcons.commentSlash,
-            //   color: mainDarkPinkColor,
-            // ),
+       
           ),
         ],
       ),

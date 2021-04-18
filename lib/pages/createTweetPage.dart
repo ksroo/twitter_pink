@@ -7,7 +7,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:image_picker/image_picker.dart';
 
 import 'package:twitter_pink/main.dart';
-import 'package:twitter_pink/pages/homePage.dart';
+
 import 'package:twitter_pink/utilities/constants.dart';
 
 import '../widgets/navigationBar.dart';
